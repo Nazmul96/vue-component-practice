@@ -5,8 +5,9 @@
 
 <template>
     
-    <Button class="mb-1" label="click me here" /><br><br>
-    <Button label="click me here1" />
+    <Button  class="mb-1" label="click" /><br><br>
+    <Button color="gray" class="mb-1" label="click me" /><br><br>
+    <Button color="red" label="click me again" />
 </template>
 
 <style scoped>

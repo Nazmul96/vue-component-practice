@@ -1,13 +1,26 @@
 <script setup>
-  import Button from './components/Button.vue'
+  import ButtonCounter from './components/ButtonCounter.vue'
  
 </script>
 
 <template>
+     <div class="container mx-auto">
+    <div class="flex items-center mt-5">
+      <img class="logo" src="./assets/vue.svg" alt="Vue logo" />
+      <h1 class="text-2xl">Vue Components</h1>
+    </div>
+    <div class="mt-10 p-10">
+      <p class="mb-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis corporis mollitia fugit dolor quibusdam atque qui fuga laudantium aut porro.
+      </p>
+      
+      <ButtonCounter/><br/><br/>
+      <button-counter/><br/><br/>
+
+    </div>
     
-    <Button  class="mb-1" label="click" /><br><br>
-    <Button color="gray" class="mb-1" label="click me" /><br><br>
-    <Button color="red" label="click me again" />
+  </div>
+    
 </template>
 
 <style scoped>

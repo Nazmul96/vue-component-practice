@@ -1,6 +1,14 @@
 <script setup>
    import { ref } from 'vue';
-   const count = ref(0);
+   
+   const props = defineProps({
+          start: {
+            type: Number,
+            default: 0
+          }  
+   });
+
+   const count = ref(props.start);
 
    function increase(){
        return count.value++;

@@ -14,8 +14,8 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis corporis mollitia fugit dolor quibusdam atque qui fuga laudantium aut porro.
       </p>
       
-      <ButtonCounter/><br/><br/>
-      <button-counter/><br/><br/>
+      <ButtonCounter :start="5"/><br/><br/>
+      <button-counter :start="10"/>
 
     </div>
     
